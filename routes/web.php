@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('inici');
 })->name('inici');
+
+Route::get('/blog/productos', function () {
+	return view('product.llistat');
+})->name('product_llistat');
+
+Route::get('/product/{id}', function ($id) {
+    return view('product.fitxa', compact('id'));
+})->where('id', "[0-9]+")->name('product_fitxa');
