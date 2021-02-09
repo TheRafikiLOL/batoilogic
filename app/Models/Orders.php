@@ -9,8 +9,6 @@ class Orders extends Model
 {
     use HasFactory;
 
-    public $timestamps = false;
-
     public function customers()
     {
         return $this->hasOne('App\Models\Customers');
