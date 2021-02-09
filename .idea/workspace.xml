@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_1_21_10_32_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_1_21_10_32__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_113314_crear_tabla_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_114431_crear_tabla_order_lines.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_115240_crear_tabla_provaider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Customers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Customers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Dealers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Dealers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +158,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\classe\laravel\code\BatoiLOGIC\public\js" />
+      <recent name="F:\classe\laravel\code\BatoiLOGIC\resources\views\partials" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -170,18 +178,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611587754521</updated>
-<<<<<<< HEAD
-      <workItem from="1611587757423" duration="1426000" />
-=======
       <workItem from="1611587757423" duration="826000" />
       <workItem from="1611653679204" duration="2178000" />
-<<<<<<< HEAD
-      <workItem from="1611656997722" duration="1087000" />
->>>>>>> 18b9c0e2e8aa5ad6b21ebf5c4b9bdc8d13764def
-=======
       <workItem from="1611656997722" duration="1834000" />
       <workItem from="1612771826094" duration="5524000" />
->>>>>>> c2671852952748ae07ebf6d91ee867f807703311
+      <workItem from="1612879272139" duration="2091000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
