@@ -5,6 +5,7 @@
         <link rel="shortcut icon" type="image/svg" href="{{ asset('img/batoiLogicResources/favicon.svg') }}">
 		<link rel="stylesheet" type="text/css" href="/css/app.css">
 		<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('css/scss/general-style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/scss/header-style.css') }}">
 	</head>
 	<body>

@@ -29,7 +29,7 @@ class ProductFactory extends Factory
             'description' => $this->faker->unique()->realText(100),
             'price' => $this->faker->randomDigit,
             'stock' => $this->faker->randomDigit,
-            'photo' => $this->faker->name,
+            'photo' => "placeholder.png",
             'active' => $this->faker->boolean,
         ];
     }
