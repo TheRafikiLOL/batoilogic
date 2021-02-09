@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar">
         <div>
-            <a class="navbar-brand" id="header-logo" href="{{ route('inici') }}"><img src="https://via.placeholder.com/60C/" alt="logo"></a>
+            <a class="navbar-brand" id="header-logo" href="{{ route('inici') }}"><img src="{{ asset('img/batoiLogicResources/logo.svg') }}" alt="logo"></a>
             <ul>
                 <li><a class="navbar-brand headerLink" href="{{ route('inici') }}">Inicio</a></li>
                 <li><a class="navbar-brand headerLink" href="{{ route('productos.index') }}">Productos</a></li>

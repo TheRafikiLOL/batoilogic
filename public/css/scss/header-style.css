@@ -77,6 +77,10 @@ header nav div a#header-logo {
   margin-right: 40px !important;
 }
 
+header nav div a#header-logo img {
+  width: 60px;
+}
+
 header nav div a#registerButton {
   background: #E5690E;
   color: #FFF;

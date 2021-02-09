@@ -9,6 +9,7 @@
 	<body>
 		@include('partials.nav')
 		@yield('contenido')
+        @include('partials.footer')
 	</body>
     <script type="text/javascript" src="/js/app.js"></script>
 </html>
