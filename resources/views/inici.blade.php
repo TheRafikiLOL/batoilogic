@@ -1,5 +1,5 @@
 @extends('plantilla')
-@section('titulo', 'Inici')
+@section('titulo', 'batoilogic - Inicio')
 @section('contenido')
     <div class="container">
         <h1>batoilogic</h1>

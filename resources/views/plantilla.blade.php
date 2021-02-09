@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title> @yield('titulo') </title>
+        <link rel="shortcut icon" type="image/svg" href="{{ asset('img/batoiLogicResources/favicon.svg') }}">
 		<link rel="stylesheet" type="text/css" href="/css/app.css">
 		<link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('css/scss/header-style.css') }}">

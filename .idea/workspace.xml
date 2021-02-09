@@ -151,6 +151,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\classe\laravel\code\BatoiLOGIC\public\js" />
+      <recent name="F:\classe\laravel\code\BatoiLOGIC\resources\views\partials" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -215,5 +221,15 @@
     <MESSAGE value="Seeder Customers y Dealers" />
     <MESSAGE value="Seeder y Factory de Orders" />
     <option name="LAST_COMMIT_MESSAGE" value="Seeder y Factory de Orders" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2509" y="91" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612891161557">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2509" y="91" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1612891161557" />
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612891229250">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1612891229250" />
   </component>
 </project>
