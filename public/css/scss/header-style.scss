@@ -1,0 +1,122 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+//Variables
+$principalColor: #E5690E;
+$principalColorHover: #E03B07;
+
+/*
+ TAMAÑOS RESPONSIVE
+
+ mobile -> 0px - 767px
+ tablet -> 768px - 991px
+ large -> 992px
+
+*/
+
+/*@media screen and (max-width: 991px) {
+
+    nav{ 
+        ul {
+            background: red;
+        }   
+    }
+}*/
+
+header {
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+
+    nav {
+        background: #FFF;
+        width: 100%;
+
+        div {
+            margin: 0 30px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+            font-size: 24px;
+            font-family: 'Roboto', sans-serif;
+
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+
+                float: left;
+    
+                li {
+                    float: left;
+                    
+                    a.headerLink {
+                        padding: 0 10px;
+                    }
+        
+                    a.headerLink:hover {
+                        color: $principalColor;
+                    }
+        
+                    a.headerLink:after {    
+                        background: none repeat scroll 0 0 transparent;
+                        bottom: 0;
+                        content: "";
+                        display: block;
+                        height: 2px;
+                        left: 50%;
+                        position: absolute;
+                        background: $principalColor;
+                        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                        width: 0;
+                    }
+                    a.headerLink:hover:after { 
+                        width: 100%; 
+                        left: 0; 
+                    }
+                }
+            }
+
+            a#header-logo {
+                margin-right: 40px!important;
+                
+                img {
+                    width: 60px;
+                }
+            }
+
+            a#registerButton {
+                background: $principalColor;
+                color: #FFF;
+                font-weight: bold;
+                margin-left: auto!important;
+            }
+            a#registerButton:hover {
+                background: $principalColorHover;
+            }
+            a#loginButton {
+                background: #D8D8D8;
+            }
+            a#loginButton:hover {
+                background: #b1b1b1;
+            }
+
+            a.btn {
+                min-width: 130px;
+            }
+
+            a {
+                font-weight: bold;
+                color: black;
+                text-decoration: none;
+                display: inline-block;
+                
+                position: relative;
+            }
+            a:not(:last-child) {
+                margin-right: 20px!important;
+            }
+        }
+    }
+}
