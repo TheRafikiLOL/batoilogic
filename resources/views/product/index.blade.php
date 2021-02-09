@@ -8,7 +8,6 @@
 
             @foreach($products as $product)
 
-                @if ($product->active == 1)
 
                     <div class="card" style="width: 100%; max-width: 380px; margin: 10px">
                         <div class="card-body">
@@ -19,8 +18,6 @@
                             </div>
                         </div>
                     </div>
-
-                @endif
 
             @endforeach
 
