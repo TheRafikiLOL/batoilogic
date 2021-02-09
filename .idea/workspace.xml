@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/scss/header-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/scss/header-style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/scss/header-style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/batoiLogicResources/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/batoiLogicResources/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/batoiLogicResources/menu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/batoiLogicResources/text-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/responsiveHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Orders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/UsersSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UsersSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inici.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inici.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/plantilla.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/plantilla.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +169,7 @@
       <workItem from="1611653679204" duration="2178000" />
       <workItem from="1611656997722" duration="1834000" />
       <workItem from="1612771826094" duration="5524000" />
-      <workItem from="1612879272139" duration="6830000" />
+      <workItem from="1612879272139" duration="10318000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -206,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612882382554</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Seeder y Factory de Orders">
+      <created>1612887043735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612887043735</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bootstrap funcional" />
     <MESSAGE value="Seeder Customers y Dealers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seeder Customers y Dealers" />
+    <MESSAGE value="Seeder y Factory de Orders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seeder y Factory de Orders" />
   </component>
 </project>
