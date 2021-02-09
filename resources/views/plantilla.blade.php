@@ -10,6 +10,7 @@
 		@include('partials.nav')
 		@yield('contenido')
         @include('partials.footer')
-	</body>
+        <script src={{ asset('js/responsiveHeader.js')  }}></script>
+    </body>
     <script type="text/javascript" src="/js/app.js"></script>
 </html>

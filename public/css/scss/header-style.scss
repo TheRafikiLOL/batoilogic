@@ -4,6 +4,7 @@
 //Variables
 $principalColor: #E5690E;
 $principalColorHover: #E03B07;
+
 /*
  TAMAÑOS RESPONSIVE
 
@@ -12,6 +13,15 @@ $principalColorHover: #E03B07;
  large -> 992px
 
 */
+
+/*@media screen and (max-width: 991px) {
+
+    nav{ 
+        ul {
+            background: red;
+        }   
+    }
+}*/
 
 header {
     position: sticky;

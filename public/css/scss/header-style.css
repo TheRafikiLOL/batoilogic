@@ -9,6 +9,14 @@
  large -> 992px
 
 */
+/*@media screen and (max-width: 991px) {
+
+    nav{ 
+        ul {
+            background: red;
+        }   
+    }
+}*/
 header {
   position: -webkit-sticky;
   position: sticky;
