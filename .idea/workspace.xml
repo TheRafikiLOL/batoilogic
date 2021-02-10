@@ -175,7 +175,7 @@
       <workItem from="1611653679204" duration="2178000" />
       <workItem from="1611656997722" duration="1834000" />
       <workItem from="1612771826094" duration="5524000" />
-      <workItem from="1612879272139" duration="10318000" />
+      <workItem from="1612879272139" duration="11613000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612887043735</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rama-adri actualización">
+      <created>1612892773078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612892773078</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +227,8 @@
     <MESSAGE value="Bootstrap funcional" />
     <MESSAGE value="Seeder Customers y Dealers" />
     <MESSAGE value="Seeder y Factory de Orders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seeder y Factory de Orders" />
+    <MESSAGE value="rama-adri actualización" />
+    <option name="LAST_COMMIT_MESSAGE" value="rama-adri actualización" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2509" y="91" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612891161557">
