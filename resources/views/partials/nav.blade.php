@@ -8,11 +8,11 @@
                 <li><a class="navbar-brand headerLink" href="{{ route('productos.index') }}">Productos</a></li>
                 <li>
                     <a id="registerButtonMobile" class="btn d-lg-none">Regístrate</a>
-                    <a id="loginButtonMobile" class="btn  d-lg-none">Inicia sesión</a>
+                    <a id="loginButtonMobile" class="btn  d-lg-none" href="{{route('login')}}">Inicia sesión</a>
                 </li>
             </ul>
             <a id="registerButton" class="btn d-none d-lg-block">Regístrate</a>
-            <a id="loginButton" class="btn d-none d-lg-block">Inicia sesión</a>
+            <a id="loginButton" class="btn d-none d-lg-block" href="{{route('login')}}">Inicia sesión</a>
         </div>
     </nav>
 </header>
