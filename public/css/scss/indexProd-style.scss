@@ -6,16 +6,30 @@ $backProdList:#FFAE4F;
 .listadoProductos{
         display: flex;
         flex-flow: column;
+        margin: 0 50px;
         .card {
             width: 100%;
             margin: 10px;
-            img {
-                height: 200px;
+            div{
+                img {
+                    height: 180px;
+                }   
             }
+            
             h3{
                 span{
                     font-size: 18px;
                 }
             }
         } 
+}
+
+@media screen and (max-width: 991px) {
+    .listadoProductos{
+        div{
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(20rem,1fr)); 
+            gap: 1em;
+        }
+    }
 }

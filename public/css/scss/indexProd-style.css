@@ -6,6 +6,7 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
+  margin: 0 50px;
 }
 
 .listadoProductos .card {
@@ -13,11 +14,21 @@
   margin: 10px;
 }
 
-.listadoProductos .card img {
-  height: 200px;
+.listadoProductos .card div img {
+  height: 180px;
 }
 
 .listadoProductos .card h3 span {
   font-size: 18px;
+}
+
+@media screen and (max-width: 991px) {
+  .listadoProductos div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1em;
+  }
 }
 /*# sourceMappingURL=indexProd-style.css.map */
