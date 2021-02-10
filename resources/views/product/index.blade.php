@@ -3,20 +3,27 @@
 @section('contenido')
 
     <div class="listadoProductos container">
-        <h1>Llistat de posts</h1>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem,1fr)); gap: 1em;">
+        <h1>Listado de Productos</h1>
+        <div>
 
             @foreach($products as $product)
 
-                    <div class="card" style="width: 100%; max-width: 380px; margin: 10px">
-                        <div class="card-body">
-                            <img src="img/products/placeholder/{{ $product->photo }}" alt="{{ $product->photo }}">
+                    <div class="card">
+                        <div class="row card-body">
+                            <div class="d-none">
+                                <a class="btn"  href="{{ route('productos.show',$product->id) }}">Ver más</a>
+                            </div>
+                            <div class="col-6">
+                                <img src="img/products/placeholder/{{ $product->photo }}" alt="{{ $product->photo }}">
+                            </div>
 
-                            <h2>{{ $product->name }}</h2>
-                            <h3>{{ showPriceEuro($product->price) }}<span>'{{ showPriceCentimo($product->price) }}</span>€</h3>
+                            <div class="col-6">
+                                <h2>{{ $product->name }}</h2>
+                                <h3>{{ showPriceEuro($product->price) }}<span>'{{ showPriceCentimo($product->price) }}</span>€</h3>
 
-                            <div style="display: flex;">
-                                <a class="btn btn-primary" style="margin: 0 5px" href="{{ route('productos.show',$product->id) }}">Ver más</a>
+                                <div>
+                                    <a class="btn"  href="{{ route('productos.show',$product->id) }}">Ver más</a>
+                                </div>
                             </div>
                         </div>
                     </div>

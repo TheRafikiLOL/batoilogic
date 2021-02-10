@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,iBAAiB,CAAA;EACT,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,MAAM;CAaxB;;AAfD,AAGQ,iBAHS,CAGT,KAAK,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CASf;;AAdT,AAMY,iBANK,CAGT,KAAK,CAGD,GAAG,CAAC;EACA,MAAM,EAAE,KAAK;CAChB;;AARb,AAUgB,iBAVC,CAGT,KAAK,CAMD,EAAE,CACE,IAAI,CAAA;EACA,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "indexProd-style.scss"
+    ],
+    "names": [],
+    "file": "indexProd-style.css"
+}
