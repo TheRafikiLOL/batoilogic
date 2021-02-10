@@ -23,7 +23,7 @@ class ProductController extends Controller
     {
         //return view('product.index');
         //$products = Product::get();
-        $products = Product::paginate(10);
+        $products = Product::paginate(24);
         return view('product.index', compact('products'));
     }
 
