@@ -25,4 +25,10 @@ class LoginController extends Controller
             return view('auth.login', compact('error'));
         }
     }
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect()->intended(route('inici'));
+    }
 }

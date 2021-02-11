@@ -43,7 +43,7 @@
                 <button type="submit" name="enviar">REGÍSTRATE</button>
             </form>
 
-            <p>¿Ya tienes una cuenta? <a href="#">Inicia sesión aquí</a>.</p>
+            <p>¿Ya tienes una cuenta? <a href="{{route('login')}}">Inicia sesión aquí</a>.</p>
         </div>
     </div>
 @endsection

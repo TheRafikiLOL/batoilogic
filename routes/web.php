@@ -19,6 +19,8 @@ Route::resource('productos', 'App\Http\Controllers\ProductController');
 Route::get('login', [LoginController::class, 'loginForm'])->name('login');
 Route::post('login', [LoginController::class, 'login'])->name('log');
 
+Route::get('logout', [LoginController::class, 'logout'])->name('logout');
+
 Route::get('/', function () {
     return view('inici');
 })->name('inici');

@@ -6,13 +6,32 @@
             <ul id="main-menu">
                 <li><a class="navbar-brand headerLink" href="{{ route('inici') }}">Inicio</a></li>
                 <li><a class="navbar-brand headerLink" href="{{ route('productos.index') }}">Productos</a></li>
+                @if(auth()->check())
+                    @if(auth()->user()->rol == "dealer" || auth()->user()->rol == "admin")
+                        <li><a class="navbar-brand headerLink admin" href="{{ route('inici') }}">Usuarios</a></li>
+                        <li><a class="navbar-brand headerLink admin" href="{{ route('inici') }}">Proveedores</a></li>
+                    @endif
+                @endif
                 <li>
-                    <a id="registerButtonMobile" class="btn d-lg-none">Regístrate</a>
-                    <a id="loginButtonMobile" class="btn  d-lg-none" href="{{route('login')}}">Inicia sesión</a>
+                    @if(auth()->guest())
+                        <a id="registerButtonMobile" class="btn d-lg-none">Regístrate</a>
+                        <a id="loginButtonMobile" class="btn  d-lg-none" href="{{route('login')}}">Inicia sesión</a>
+                    @endif
+                    @if(auth()->check())
+                        <img id="userIconMobile" class="d-lg-none" src="img/users/placeholder/{{ auth()->user()->photo }}" alt="Icono de usuario">
+                        <a id="loginButtonMobile" class="btn  d-lg-none" href="{{route('logout')}}">Cerrar sesión</a>
+                    @endif
                 </li>
             </ul>
-            <a id="registerButton" class="btn d-none d-lg-block">Regístrate</a>
-            <a id="loginButton" class="btn d-none d-lg-block" href="{{route('login')}}">Inicia sesión</a>
+            @if(auth()->guest())
+                <a id="registerButton" class="btn d-none d-lg-block">Regístrate</a>
+                <a id="loginButton" class="btn d-none d-lg-block" href="{{route('login')}}">Inicia sesión</a>
+            @endif
+            @if(auth()->check())
+                <img id="userIcon" class="d-none d-lg-block" src="img/users/placeholder/{{ auth()->user()->photo }}" alt="Icono de usuario">
+                <a id="loginButton" class="btn d-none d-lg-block" href="{{route('logout')}}">Cerrar sesión</a>
+            @endif
+
         </div>
     </nav>
 </header>
