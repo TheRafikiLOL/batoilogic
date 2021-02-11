@@ -13,7 +13,7 @@
                             <div class="d-none">
                                 <a class="btn"  href="{{ route('productos.show',$product->id) }}">Ver más</a>
                             </div>
-                            <div class="col-12 col-sm-6 col-md-12">
+                            <div class="col-12 col-sm-6 col-md-12 card-img">
                                 <img src="img/products/placeholder/{{ $product->photo }}" alt="{{ $product->photo }}">
                             </div>
 
