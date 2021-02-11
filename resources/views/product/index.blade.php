@@ -2,7 +2,7 @@
 @section('titulo', 'batoilogic - Productos')
 @section('contenido')
 
-    <div class="listadoProductos container">
+    <div class="listadoProductos">
         <h1>Listado de Productos</h1>
         <div>
 
@@ -13,11 +13,11 @@
                             <div class="d-none">
                                 <a class="btn"  href="{{ route('productos.show',$product->id) }}">Ver más</a>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-sm-6 col-md-12 card-img">
                                 <img src="img/products/placeholder/{{ $product->photo }}" alt="{{ $product->photo }}">
                             </div>
 
-                            <div class="col-6">
+                            <div class="col-12 col-sm-6 col-md-12">
                                 <h2>{{ $product->name }}</h2>
                                 <h3>{{ showPriceEuro($product->price) }}<span>'{{ showPriceCentimo($product->price) }}</span>€</h3>
 
