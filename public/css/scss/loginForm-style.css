@@ -1,0 +1,80 @@
+.formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formContainer .login_registerForm {
+  padding: 20px;
+  margin: 50px 0;
+  background: #FFF;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 550px;
+}
+
+.formContainer .login_registerForm h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.formContainer .login_registerForm form div input {
+  background: #FFF;
+  border: solid #E5690E 2px;
+  text-transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.formContainer .login_registerForm form div.politica_label label {
+  font-size: 11px !important;
+}
+
+.formContainer .login_registerForm form button {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 10px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  background-image: -webkit-gradient(linear, left top, right top, from(#E03B07), color-stop(#E5690E), color-stop(#E5690E), to(#FFAE4F));
+  background-image: linear-gradient(to right, #E03B07, #E5690E, #E5690E, #FFAE4F);
+}
+
+.formContainer .login_registerForm form button:hover {
+  background-position: 100% 0;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.formContainer .login_registerForm form button:focus {
+  outline: none;
+}
+
+.formContainer .login_registerForm p, .formContainer .login_registerForm a {
+  font-size: 11px;
+}
+
+.formContainer .login_registerForm a {
+  color: #E5690E;
+}
+
+.formContainer .login_registerForm a:hover {
+  color: #E03B07;
+}
+/*# sourceMappingURL=loginForm-style.css.map */

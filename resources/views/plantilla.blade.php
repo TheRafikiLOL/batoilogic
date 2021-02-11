@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="{{ asset('css/scss/general-style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/scss/header-style.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/scss/indexProd-style.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/scss/loginForm-style.css') }}">
 	</head>
 	<body>
 		@include('partials.nav')

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/plantilla.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/plantilla.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,9 +179,7 @@
       <workItem from="1612771826094" duration="5524000" />
       <workItem from="1612879272139" duration="11613000" />
       <workItem from="1612959674469" duration="719000" />
-      <workItem from="1612961086092" duration="12193000" />
-      <workItem from="1612978423746" duration="199000" />
-      <workItem from="1613051926726" duration="1072000" />
+      <workItem from="1612961086092" duration="10082000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -223,28 +223,7 @@
       <option name="project" value="LOCAL" />
       <updated>1612972790259</updated>
     </task>
-    <task id="LOCAL-00007" summary="Viewport para mobiles y lista de productos con responsive empezada">
-      <created>1612975789681</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1612975789682</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Varios cambios a index.blade y a los estilos con scss">
-      <created>1612978503661</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1612978503661</updated>
-    </task>
-    <task id="LOCAL-00009" summary="rama actualizada">
-      <created>1613052559280</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1613052559280</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,9 +248,6 @@
     <MESSAGE value="rama-adri actualización" />
     <MESSAGE value="Commit para pull de ramarafa" />
     <MESSAGE value="Vista de login, con las rutas y su controlador" />
-    <MESSAGE value="Viewport para mobiles y lista de productos con responsive empezada" />
-    <MESSAGE value="Varios cambios a index.blade y a los estilos con scss" />
-    <MESSAGE value="rama actualizada" />
-    <option name="LAST_COMMIT_MESSAGE" value="rama actualizada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vista de login, con las rutas y su controlador" />
   </component>
 </project>
