@@ -21,6 +21,14 @@ Route::post('login', [LoginController::class, 'login'])->name('log');
 
 Route::get('logout', [LoginController::class, 'logout'])->name('logout');
 
+Route::get('/register', function () {
+    return view('auth.register');
+})->name('register');
+
+Route::get('/about-us', function () {
+    return view('about-us');
+})->name('about-us');
+
 Route::get('/', function () {
     return view('inici');
 })->name('inici');

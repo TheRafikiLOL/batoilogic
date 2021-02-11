@@ -14,7 +14,7 @@
                 @endif
                 <li>
                     @if(auth()->guest())
-                        <a id="registerButtonMobile" class="btn d-lg-none">Regístrate</a>
+                        <a id="registerButtonMobile" class="btn d-lg-none" href="{{route('register')}}">Regístrate</a>
                         <a id="loginButtonMobile" class="btn  d-lg-none" href="{{route('login')}}">Inicia sesión</a>
                     @endif
                     @if(auth()->check())
@@ -24,7 +24,7 @@
                 </li>
             </ul>
             @if(auth()->guest())
-                <a id="registerButton" class="btn d-none d-lg-block">Regístrate</a>
+                <a id="registerButton" class="btn d-none d-lg-block" href="{{route('register')}}">Regístrate</a>
                 <a id="loginButton" class="btn d-none d-lg-block" href="{{route('login')}}">Inicia sesión</a>
             @endif
             @if(auth()->check())
