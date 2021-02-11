@@ -1,0 +1,76 @@
+//Variables
+$principalColor: #E5690E;
+$principalColorHover: #E03B07;
+$backProdList:#FFAE4F;
+
+.formContainer {
+    // [ altura total - altura header - altura footer - margin superior ]
+    height: calc(100vh - 86.22px - 96.03px - 70px);
+    //display: flex;
+
+    .loginForm {
+        
+        margin: 70px 20px 0 20px;
+        padding: 20px;
+        background: #FFF;
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+
+        h1 {
+            width: 100%;
+            text-align: center;
+        }
+
+        /*input {
+            background: $principalColor;
+            border: none;
+            text-transform: uppercase;
+        }*/
+
+        div {
+            input {
+                background: #FFF;
+                border: solid #E5690E 2px;
+                text-transform: none;
+            }
+        }
+
+        .btn-hover {
+            width: 200px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+            cursor: pointer;
+            margin: 20px;
+            height: 55px;
+            text-align:center;
+            border: none;
+            background-size: 300% 100%;
+        
+            border-radius: 50px;
+            transition: all .4s ease-in-out;
+        }
+        
+        .btn-hover:hover {
+            background-position: 100% 0;
+            transition: all .4s ease-in-out;
+        }
+        
+        .btn-hover:focus {
+            outline: none;
+        }
+        
+        .btn-hover.color-8 {
+            background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+            box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+        }
+
+        a {
+            font-size: 11px;
+            color: $principalColor;
+        }
+        a:hover {
+            $principalColorHover: #E03B07;
+        }
+    }
+}
