@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional" />
+    <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,6 +179,7 @@
       <workItem from="1612959674469" duration="719000" />
       <workItem from="1612961086092" duration="12193000" />
       <workItem from="1612978423746" duration="199000" />
+      <workItem from="1613051926726" duration="1072000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -234,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612978503661</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rama actualizada">
+      <created>1613052559280</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613052559280</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +271,7 @@
     <MESSAGE value="Vista de login, con las rutas y su controlador" />
     <MESSAGE value="Viewport para mobiles y lista de productos con responsive empezada" />
     <MESSAGE value="Varios cambios a index.blade y a los estilos con scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="Varios cambios a index.blade y a los estilos con scss" />
+    <MESSAGE value="rama actualizada" />
+    <option name="LAST_COMMIT_MESSAGE" value="rama actualizada" />
   </component>
 </project>
