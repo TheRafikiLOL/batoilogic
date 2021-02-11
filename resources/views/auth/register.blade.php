@@ -1,5 +1,5 @@
 @extends('plantilla')
-@section('titulo', 'batoilogic - Inicia sesión')
+@section('titulo', 'batoilogic - Regístrate')
 @section('contenido')
     <div class="formContainer">
         <div class="login_registerForm">
