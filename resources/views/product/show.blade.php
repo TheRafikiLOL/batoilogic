@@ -2,6 +2,10 @@
 @section('titulo', 'batoilogic - '.$product->name)
 @section('contenido')
 
+    <div class="modal-container">
+        <img class="d-none" src="{{ asset('img/products/placeholder/'.$product->photo.'') }}" alt="{{ $product->name }}">
+    </div>
+
     <div class="productContainer">
         <div class="row">
             <div class="col-12 col-md-6 imgContainer">

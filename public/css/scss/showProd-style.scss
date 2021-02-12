@@ -2,6 +2,34 @@
 $principalColor: #E5690E;
 $principalColorHover: #E03B07;
 
+.modal-container.active {
+    z-index: 2;
+    position: fixed;
+    //width: 100vw;
+    //height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+
+    img {
+        display: block!important;
+        z-index: 3;
+    }
+}
+
+.modal-container.active::after {
+    z-index: 2;
+    content:'';
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.56);
+}
+
 .productContainer {
     div.row {
         box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
@@ -25,7 +53,7 @@ $principalColorHover: #E03B07;
             align-items: center;
             h1 {
                 text-align: left;
-                margin: 30px 0;
+                margin: 20px 0 40px 0;
             }
 
             h2 {
