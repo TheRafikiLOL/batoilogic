@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="{{ asset('css/scss/header-style.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/scss/indexProd-style.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/scss/loginForm-style.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/scss/showProd-style.css') }}">
 	</head>
 	<body>
 		@include('partials.nav')

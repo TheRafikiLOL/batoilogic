@@ -1,0 +1,104 @@
+.productContainer div.row {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  margin: 40px 20px;
+  padding: 30px;
+  background: #FFF;
+}
+
+.productContainer div.row > div {
+  text-align: center;
+}
+
+.productContainer div.row div.imgContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productContainer div.row div.dataContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productContainer div.row div.dataContainer h1 {
+  text-align: left;
+  margin: 30px 0;
+}
+
+.productContainer div.row div.dataContainer h2 {
+  text-align: left;
+  border-bottom: solid #E5690E 1px;
+}
+
+.productContainer div.row div.dataContainer h2 span {
+  font-size: 23px;
+}
+
+.productContainer div.row div.dataContainer p#description {
+  text-align: justify;
+}
+
+.productContainer div.row div.dataContainer div {
+  width: 100%;
+  text-align: left;
+}
+
+.productContainer div.row div.dataContainer div a.btn {
+  font-size: 19.2px;
+  background: #E5690E;
+  color: #FFF;
+  padding: 15px;
+}
+
+.productContainer div.row div.dataContainer div a.btn:hover {
+  background: #E03B07;
+}
+
+@media (max-width: 767px) {
+  .productContainer div.row div.imgContainer img {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .productContainer div.row {
+    padding: 20px 30px;
+    margin: 40px 80px;
+  }
+  .productContainer div.row div.imgContainer img {
+    max-width: 230px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .productContainer div.row {
+    padding: 20px 30px;
+    margin: 40px 120px;
+  }
+  .productContainer div.imgContainer img {
+    max-width: 300px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .productContainer div.row {
+    margin: 40px 140px;
+  }
+}
+/*# sourceMappingURL=showProd-style.css.map */
