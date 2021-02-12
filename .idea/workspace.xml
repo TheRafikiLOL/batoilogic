@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,8 +180,12 @@
       <workItem from="1612879272139" duration="11613000" />
       <workItem from="1612959674469" duration="719000" />
       <workItem from="1612961086092" duration="10082000" />
+<<<<<<< HEAD
       <workItem from="1613137790876" duration="401000" />
       <workItem from="1613138395966" duration="7783000" />
+=======
+      <workItem from="1613138283790" duration="6421000" />
+>>>>>>> 47d25ded96c2d66e36610b9d0537de0d38f93715
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
