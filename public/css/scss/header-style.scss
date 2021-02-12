@@ -112,6 +112,27 @@ header {
                         width: 100%; 
                         left: 0; 
                     }
+
+                    a.headerLink.admin:hover {
+                        color: rgb(80, 80, 150);
+                    }
+        
+                    a.headerLink.admin:after {    
+                        background: none repeat scroll 0 0 transparent;
+                        bottom: 0;
+                        content: "";
+                        display: block;
+                        height: 2px;
+                        left: 50%;
+                        position: absolute;
+                        background: rgb(80, 80, 150);
+                        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                        width: 0;
+                    }
+                    a.headerLink.admin:hover:after { 
+                        width: 100%; 
+                        left: 0; 
+                    }
                 }
             }
 
@@ -153,6 +174,13 @@ header {
             }
             a:not(:last-child) {
                 margin-right: 20px!important;
+            }
+
+            img#userIcon {
+                width: 60px;
+                height: 60px;
+                border-radius: 100px;
+                margin: 0 10px 0 auto;
             }
         }
     }
@@ -201,6 +229,12 @@ header {
                         }
                         a#loginButtonMobile:hover {
                             background: #b1b1b1;
+                        }
+                        img#userIconMobile {
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 100px;
+                            margin: 0 10px 0 auto;
                         }
                     }
                 }
