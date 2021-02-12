@@ -2,18 +2,19 @@
 
 namespace Database\Factories;
 
-use App\Models\User;
+use App\Models\Orders;
+use App\Models\Dealers;
+use App\Models\Customers;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 
-class UserFactory extends Factory
+class OrdersFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = User::class;
+    protected $model = Orders::class;
 
     /**
      * Define the model's default state.
@@ -22,13 +23,13 @@ class UserFactory extends Factory
      */
     public function definition()
     {
+        $customer=Customers::inRandomOrder()->first();
+        $dealer=Dealers::inRandomOrder()->first();
         return [
-            'name' => $this->faker->name,
-            'surname' => $this->faker->lastName,
+            'customerId' => $customer->userId,
+            'dealerId' => $dealer->userId,
+            'state' => $this->faker->boolean,
             'address' => $this->faker->address,
-            'email' => $this->faker->unique()->safeEmail,
-            'password' => 1234,
-            'rol' => $this->faker->boolean,
         ];
     }
 }

@@ -5,18 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Dealers extends Model
+class Product extends Model
 {
     use HasFactory;
-
     public $timestamps = false;
 
-    public function users()
+    public function provider()
     {
-        return $this->hasOne('App\Models\User');
+        return $this->hasOne('App\Models\Provider');
     }
-    public function orders()
+    public function orderLines()
     {
-        return $this->hasMany('App\Models\Orders');
+        return $this->hasMany('App\Models\OrderLines');
     }
 }

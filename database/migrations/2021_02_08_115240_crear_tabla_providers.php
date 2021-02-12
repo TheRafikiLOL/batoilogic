@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CrearTablaProvaider extends Migration
+class CrearTablaProviders extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CrearTablaProvaider extends Migration
      */
     public function up()
     {
-        Schema::create('provaider', function (Blueprint $table) {
+        Schema::create('providers', function (Blueprint $table) {
             $table->id();
             $table->string('name');
         });
@@ -26,6 +26,6 @@ class CrearTablaProvaider extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('provaider');
+        Schema::dropIfExists('providers');
     }
 }

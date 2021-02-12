@@ -13,7 +13,7 @@ class CrearTablaOrderLines extends Migration
      */
     public function up()
     {
-        Schema::create('orderLines', function (Blueprint $table) {
+        Schema::create('order_lines', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('orderId');
             $table->bigInteger('productId');
@@ -30,6 +30,6 @@ class CrearTablaOrderLines extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('orderLines');
+        Schema::dropIfExists('order_lines');
     }
 }
