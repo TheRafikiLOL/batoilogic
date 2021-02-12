@@ -176,16 +176,33 @@
       <workItem from="1611587757423" duration="826000" />
       <workItem from="1611653679204" duration="2178000" />
       <workItem from="1611656997722" duration="1834000" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <workItem from="1612771826094" duration="5524000" />
+>>>>>>> c2671852952748ae07ebf6d91ee867f807703311
+=======
+      <workItem from="1612771826094" duration="16981000" />
+>>>>>>> 72249a0f801e712789925f53a60708bb2e05ba0c
+=======
       <workItem from="1612771826094" duration="5524000" />
       <workItem from="1612879272139" duration="11613000" />
       <workItem from="1612959674469" duration="719000" />
       <workItem from="1612961086092" duration="10082000" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <workItem from="1613137790876" duration="401000" />
       <workItem from="1613138395966" duration="7783000" />
 =======
       <workItem from="1613138283790" duration="6421000" />
 >>>>>>> 47d25ded96c2d66e36610b9d0537de0d38f93715
+=======
+>>>>>>> 0b31d5d8809dd695b1c09268dc4738cd159e2887
+>>>>>>> daf070720f86b394f37950dd6682791499003381
+=======
+      <workItem from="1613137790876" duration="401000" />
+      <workItem from="1613138395966" duration="5371000" />
+>>>>>>> bf579252acdb9adf35599d200fffc734143fdce9
+>>>>>>> f333c5b106385feaad18206034d745f36bca86d7
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>

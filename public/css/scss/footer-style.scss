@@ -1,0 +1,28 @@
+footer { 
+    color: white;
+    justify-content: center;
+    
+    h2{
+        font-size: 1.2em;
+        color: #FFAE4F;
+        text-decoration: underline;
+    }
+
+    a { 
+        color: white;
+        display: grid;
+
+    }
+
+    img {
+        padding: 0 0 20px 0;
+        width: 238px;
+    }
+
+    .contenido {
+
+        padding: 20px 80px 10px 80px;
+        text-align: justify;
+    }
+
+}
