@@ -8,11 +8,18 @@ footer {
         text-decoration: underline;
     }
 
-    a { 
-        color: white;
-        display: grid;
-
-    }
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            a {
+                color: white;
+            }
+            a:hover {
+                color: #E5690E;
+            }
+        }
+    }    
 
     img {
         padding: 0 0 20px 0;
@@ -20,8 +27,8 @@ footer {
     }
 
     .contenido {
-
         padding: 20px 80px 10px 80px;
+        margin: 0!important;
         text-align: justify;
     }
 

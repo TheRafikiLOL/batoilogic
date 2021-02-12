@@ -9,7 +9,7 @@
     <div class="productContainer">
         <div class="row">
             <div class="col-12 col-md-6 imgContainer">
-                <img src="{{ asset('img/products/placeholder/'.$product->photo.'') }}" alt="{{ $product->name }}">
+                <img id="imgProduct" src="{{ asset('img/products/placeholder/'.$product->photo.'') }}" alt="{{ $product->name }}">
             </div>
             <div class="col-12 col-md-6 dataContainer">
                 <div>
@@ -23,5 +23,7 @@
             </div>
         </div>
     </div>
+
+    <script src={{ asset('js/modal-img.js')  }}></script>
 
 @endsection

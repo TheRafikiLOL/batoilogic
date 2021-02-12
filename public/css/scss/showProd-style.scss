@@ -3,15 +3,16 @@ $principalColor: #E5690E;
 $principalColorHover: #E03B07;
 
 .modal-container.active {
+    width: 100%;
+    height: 100%;
     z-index: 2;
     position: fixed;
-    //width: 100vw;
-    //height: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     top: 0;
     left: 0;
+    cursor: pointer;
 
     img {
         display: block!important;
@@ -23,8 +24,8 @@ $principalColorHover: #E03B07;
     z-index: 2;
     content:'';
     position: fixed;
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     background: rgba(0,0,0,.56);
@@ -45,6 +46,10 @@ $principalColorHover: #E03B07;
             display: flex;
             justify-content: center;
             align-items: center;
+
+            img {
+                cursor: pointer;
+            }
         }
 
         div.dataContainer {

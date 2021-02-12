@@ -8,9 +8,9 @@ iconMenu.addEventListener('click', (e) => {
     iconMenu.classList.toggle('active');
 });
 
-window.addEventListener("resize", myFunction);
+window.addEventListener("resize", responsiveNav);
 
-function myFunction() {
+function responsiveNav() {
     if (window.innerWidth >= 991){
         menu.removeAttribute("style");
         menu.classList.remove('active');

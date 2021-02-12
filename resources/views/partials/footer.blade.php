@@ -19,8 +19,10 @@
 
             <h2>Información de contacto</h2>
 
-            <p>+34 688 888 888</p>
-            <p>soporte@batoilogic.com</p>
+            <ul>
+                <li>+34 688 888 888</li>
+                <li>soporte@batoilogic.com</li>
+            </ul>
 
         </div>
 
@@ -28,8 +30,10 @@
 
             <h2>Sobre la empresa</h2>
 
-            <a href="#">Sobre la empresa</a>
-            <a href="#">Sobre nosotros</a>
+            <ul>
+                <li><a href="#">Sobre la empresa</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+            </ul>
 
         </div>
 
@@ -37,11 +41,13 @@
 
             <h2>Categorías</h2>
 
-            <a href="#">Categoría 1</a>
-            <a href="#">Categoría 2</a>
-            <a href="#">Categoría 3</a>
-            <a href="#">Categoría 4</a>
-            <a href="#">Categoría 5</a>
+            <ul>
+                <li><a href="#">Categoría 1</a></li>
+                <li><a href="#">Categoría 2</a></li>
+                <li><a href="#">Categoría 3</a></li>
+                <li><a href="#">Categoría 4</a></li>
+                <li><a href="#">Categoría 5</a></li>
+            </ul>
 
         </div>
 

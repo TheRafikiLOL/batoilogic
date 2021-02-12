@@ -11,10 +11,17 @@ footer h2 {
   text-decoration: underline;
 }
 
-footer a {
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li a {
   color: white;
-  display: -ms-grid;
-  display: grid;
+}
+
+footer ul li a:hover {
+  color: #E5690E;
 }
 
 footer img {
@@ -24,6 +31,7 @@ footer img {
 
 footer .contenido {
   padding: 20px 80px 10px 80px;
+  margin: 0 !important;
   text-align: justify;
 }
 /*# sourceMappingURL=footer-style.css.map */
