@@ -28,6 +28,7 @@ class UserFactory extends Factory
             'address' => $this->faker->address,
             'email' => $this->faker->unique()->safeEmail,
             'password' => bcrypt(1234),
+            'photo' => "placeholder.png",
             'rol' => $this->faker->boolean,
         ];
     }

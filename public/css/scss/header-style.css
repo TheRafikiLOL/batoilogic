@@ -116,6 +116,29 @@ header nav div ul li a.headerLink:hover:after {
   left: 0;
 }
 
+header nav div ul li a.headerLink.admin:hover {
+  color: #505096;
+}
+
+header nav div ul li a.headerLink.admin:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #505096;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+header nav div ul li a.headerLink.admin:hover:after {
+  width: 100%;
+  left: 0;
+}
+
 header nav div a#header-logo {
   margin-right: 40px !important;
 }
@@ -157,6 +180,13 @@ header nav div a {
 
 header nav div a:not(:last-child) {
   margin-right: 20px !important;
+}
+
+header nav div img#userIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  margin: 0 10px 0 auto;
 }
 
 @media screen and (max-width: 991px) {
@@ -203,6 +233,12 @@ header nav div a:not(:last-child) {
   }
   header nav div ul li:last-child a#loginButtonMobile:hover {
     background: #b1b1b1;
+  }
+  header nav div ul li:last-child img#userIconMobile {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin: 0 10px 0 auto;
   }
 }
 /*# sourceMappingURL=header-style.css.map */

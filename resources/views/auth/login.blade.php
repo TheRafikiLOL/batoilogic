@@ -23,7 +23,7 @@
                 <button type="submit" name="enviar">Inicia sesión</button>
             </form>
 
-            <p>¿No tienes una cuenta? <a href="#">Regístrate aquí</a>.</p>
+            <p>¿No tienes una cuenta? <a href="{{route('register')}}">Regístrate aquí</a>.</p>
         </div>
     </div>
 @endsection
