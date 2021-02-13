@@ -25,11 +25,11 @@
             </ul>
 
             <div class="social-media-icons">
-                <img src="https://img.icons8.com/material-sharp/24/ffffff/facebook-f.png" alt="Facebook">
-                <img src="https://img.icons8.com/android/24/ffffff/twitter.png" alt="Twitter">
-                <img src="https://img.icons8.com/metro/26/ffffff/instagram-new.png" alt="Instagram">
-                <img src="https://img.icons8.com/android/24/ffffff/linkedin.png" alt="Linkedin">
-                <img src="https://img.icons8.com/metro/26/ffffff/youtube.png" alt="YouTube">
+                <a href="#"><img src="https://img.icons8.com/material-sharp/24/ffffff/facebook-f.png" alt="Facebook"></a>
+                <a href="#"><img src="https://img.icons8.com/android/24/ffffff/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="https://img.icons8.com/metro/26/ffffff/instagram-new.png" alt="Instagram"></a>
+                <a href="#"><img src="https://img.icons8.com/android/24/ffffff/linkedin.png" alt="Linkedin"></a>
+                <a href="#"><img src="https://img.icons8.com/metro/26/ffffff/youtube.png" alt="YouTube"></a>
             </div>
 
         </div>
@@ -39,8 +39,8 @@
             <h2>Sobre la empresa</h2>
 
             <ul>
-                <li><a href="#">Sobre la empresa</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="{{ route('about-us') }}">Sobre la empresa</a></li>
+                <li><a href="{{ route('about-us') }}">Sobre nosotros</a></li>
             </ul>
 
         </div>

@@ -15,7 +15,9 @@
 	</head>
 	<body>
 		@include('partials.nav')
-		@yield('contenido')
+        <div id="fullGeneralContent">
+		    @yield('contenido')
+        </div>
         @include('partials.footer')
         <script src={{ asset('js/responsiveHeader.js')  }}></script>
     </body>
