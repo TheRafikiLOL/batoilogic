@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
+      <change afterPath="$PROJECT_DIR$/resources/views/order/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/order/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/order/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +146,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Requests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -155,6 +158,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\classe\laravel\code\BatoiLOGIC\app\Http\Requests" />
+      <recent name="F:\classe\laravel\code\BatoiLOGIC\resources\views\provider" />
       <recent name="F:\classe\laravel\code\BatoiLOGIC\public\js" />
       <recent name="F:\classe\laravel\code\BatoiLOGIC\resources\views\partials" />
     </key>
@@ -176,33 +181,11 @@
       <workItem from="1611587757423" duration="826000" />
       <workItem from="1611653679204" duration="2178000" />
       <workItem from="1611656997722" duration="1834000" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <workItem from="1612771826094" duration="5524000" />
->>>>>>> c2671852952748ae07ebf6d91ee867f807703311
-=======
-      <workItem from="1612771826094" duration="16981000" />
->>>>>>> 72249a0f801e712789925f53a60708bb2e05ba0c
-=======
       <workItem from="1612771826094" duration="5524000" />
       <workItem from="1612879272139" duration="11613000" />
       <workItem from="1612959674469" duration="719000" />
       <workItem from="1612961086092" duration="10082000" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <workItem from="1613137790876" duration="401000" />
-      <workItem from="1613138395966" duration="7783000" />
-=======
       <workItem from="1613138283790" duration="6421000" />
->>>>>>> 47d25ded96c2d66e36610b9d0537de0d38f93715
-=======
->>>>>>> 0b31d5d8809dd695b1c09268dc4738cd159e2887
->>>>>>> daf070720f86b394f37950dd6682791499003381
-=======
-      <workItem from="1613137790876" duration="401000" />
-      <workItem from="1613138395966" duration="5371000" />
->>>>>>> bf579252acdb9adf35599d200fffc734143fdce9
->>>>>>> f333c5b106385feaad18206034d745f36bca86d7
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -253,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613053108486</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Actualizar rama">
+      <created>1613226587526</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613226587526</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,17 +269,13 @@
     <MESSAGE value="Commit para pull de ramarafa" />
     <MESSAGE value="Vista de login, con las rutas y su controlador" />
     <MESSAGE value="rama actualizada" />
-    <option name="LAST_COMMIT_MESSAGE" value="rama actualizada" />
+    <MESSAGE value="Actualizar rama" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizar rama" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/product/show.blade.php</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613234911690">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1613234911690" />
   </component>
 </project>

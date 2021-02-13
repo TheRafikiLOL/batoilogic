@@ -7,7 +7,7 @@
 
         <p>{{$user}}</p>
 
-        <a href="{{route('usuarios.edit',auth()->user()->id)}}">Editar información de cuenta</a>
+        <a href="{{route('usuarios.edit',$user->id)}}">Editar información de cuenta</a>
     </div>
 
 @endsection
