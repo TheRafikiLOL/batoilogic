@@ -12,6 +12,7 @@
 
     <div class="container">
         <h1>Todos los usuarios</h1>
+        <a href="{{route('proveedores.create')}}">Añadir proveedor</a>
         <div class="table-responsive">
             <table class="table">
                 <tr>
@@ -23,7 +24,16 @@
                     <tr>
                         <td>{{$provider->id}}</td>
                         <td>{{$provider->name}}</td>
-                        <td><a href="{{route('proveedores.show',$provider->id)}}">Ver proveedor</a></td>
+                        <td>
+                            <a href="{{route('proveedores.show',$provider->id)}}">Ver proveedor</a><br>
+                            <form action="{{route('proveedores.destroy',$provider->id)}}" method='POST'>
+                                @csrf
+                                @method('DELETE')
+                                <div>
+                                    <button type="submit" class="btn btn-danger" style="padding:8px 50px;margin-top:25px;">Eliminar proveedor</button>
+                                </div>
+                            </form>
+                        </td>
                     </tr>
                 @endforeach
             </table>

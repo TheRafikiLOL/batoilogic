@@ -295,4 +295,10 @@
     <MESSAGE value="Actualizar rama" />
     <option name="LAST_COMMIT_MESSAGE" value="Actualizar rama" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613245795791">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1613245795791" />
+  </component>
 </project>
