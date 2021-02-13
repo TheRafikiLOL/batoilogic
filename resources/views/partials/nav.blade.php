@@ -7,7 +7,7 @@
                 <li><a class="navbar-brand headerLink" href="{{ route('inici') }}">Inicio</a></li>
                 <li><a class="navbar-brand headerLink" href="{{ route('productos.index') }}">Productos</a></li>
                 @if(auth()->check())
-                    @if(auth()->user()->rol == "admin")
+                    @if(auth()->user()->rol == "dealer" || auth()->user()->rol == "admin")
                         <li><a class="navbar-brand headerLink admin" href="{{ route('usuarios.index') }}">Usuarios</a></li>
                         <li><a class="navbar-brand headerLink admin" href="{{ route('proveedores.index') }}">Proveedores</a></li>
                         <li><a class="navbar-brand headerLink admin" href="{{ route('order.index') }}">Comandas</a></li>

@@ -17,7 +17,15 @@
 
         <p>{{$user}}</p>
 
-        <a href="{{route('usuarios.edit',$user->id)}}">Editar información de cuenta</a>
+        <a href="{{route('usuarios.edit',$user->id)}}">Editar información de cuenta</a><br>
+
+        <form action="{{route('usuarios.destroy',$user->id)}}" method='POST'>
+            @csrf
+            @method('DELETE')
+            <div>
+                <button type="submit" class="btn btn-danger" style="padding:8px 50px;margin-top:25px;">Eliminar cuenta</button>
+            </div>
+        </form>
     </div>
 
 @endsection

@@ -1,6 +1,15 @@
 @extends('plantilla')
 @section('titulo', 'batoilogic - Editar Comanda')
 @section('contenido')
+
+    @if(auth()->check())
+        @if(auth()->user()->rol != "admin")
+            <script>window.location = "/";</script>
+        @endif
+    @else
+        <script>window.location = "/";</script>
+    @endif
+
     <div class="container">
         <div class="login_registerForm">
             <h1>Editar Comanda {{$order->id}}</h1>

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\UserRequest;
+use App\Models\Customers;
+use App\Models\OrderLines;
+use App\Models\Orders;
 use App\Models\User;
 use Illuminate\Http\Request;
 
@@ -62,5 +65,34 @@ class UserController extends Controller
             $error = 'Las contraseñas no coinciden';
             return view('user.edit', compact('error', 'user'));
         }
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        $customer = Customers::where('userId', '=', $id);
+        //$orders = Orders::where('customerId', '=', $customer->id);
+
+        dd($id);
+
+        /*$orderLines = OrderLines::where('orderId', '=', $orders->id);
+        if (auth()->user()->rol != "admin") {
+            OrderLines::where('orderId', $id)->delete();
+            Orders::findOrFail($id)->delete();
+            Customers::where('orderId', $id)->delete();
+            User::findOrFail($id)->delete();
+            $users = User::paginate(15);
+            return view('user.index', compact('users'));
+        }
+        else {
+            User::findOrFail($id)->delete();
+            $users = User::paginate(15);
+            return view('user.index', compact('users'));
+        }*/
     }
 }
