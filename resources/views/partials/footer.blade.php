@@ -1,8 +1,8 @@
 <footer>
 
-    <div class="row contenido" style="background: #232F3E;">
+    <div class="row contenido">
 
-        <div class="d-none d-md-block col-5 col-lg-5">
+        <div class="d-none d-md-block col-12 col-lg-4">
 
             <img style="width: 258px" src="{{ asset('img/batoiLogicResources/text-logo.svg') }}" alt="logo">
 
@@ -15,18 +15,26 @@
 
         </div>
 
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-5 col-lg-3">
 
             <h2>Información de contacto</h2>
 
             <ul>
-                <li>+34 688 888 888</li>
-                <li>soporte@batoilogic.com</li>
+                <li id="phone">+34 688 888 888</li>
+                <li id="mail">soporte@batoilogic.com</li>
             </ul>
+
+            <div class="social-media-icons">
+                <img src="https://img.icons8.com/material-sharp/24/ffffff/facebook-f.png" alt="Facebook">
+                <img src="https://img.icons8.com/android/24/ffffff/twitter.png" alt="Twitter">
+                <img src="https://img.icons8.com/metro/26/ffffff/instagram-new.png" alt="Instagram">
+                <img src="https://img.icons8.com/android/24/ffffff/linkedin.png" alt="Linkedin">
+                <img src="https://img.icons8.com/metro/26/ffffff/youtube.png" alt="YouTube">
+            </div>
 
         </div>
 
-        <div class="col-12 col-md-2">
+        <div class="col-12 col-md-3 col-lg-2">
 
             <h2>Sobre la empresa</h2>
 
@@ -37,7 +45,7 @@
 
         </div>
 
-        <div class="d-none col-12 col-md-2 d-md-block">
+        <div class="d-none d-md-block col-12 col-md-4 col-lg-3">
 
             <h2>Categorías</h2>
 
@@ -51,6 +59,9 @@
 
         </div>
 
+    </div>
+    <div class="row derechos">
+        <small><a href="https://icons8.com/" target="_blank">Iconos extraidos de icons8.</a></small>
     </div>
 
 </footer>

@@ -11,15 +11,6 @@ $principalColorHover: #E03B07;
 
 */
 
-/*@media screen and (max-width: 991px) {
-
-    nav{ 
-        ul {
-            background: red;
-        }   
-    }
-}*/
-
 header {
     position: sticky;
     top: 0;
@@ -176,11 +167,14 @@ header {
                 margin-right: 20px!important;
             }
 
-            img#userIcon {
-                width: 60px;
-                height: 60px;
-                border-radius: 100px;
+            a#userIcon {
                 margin: 0 10px 0 auto;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 100px;
+                }
             }
         }
     }
