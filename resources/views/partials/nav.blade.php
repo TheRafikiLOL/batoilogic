@@ -10,6 +10,7 @@
                     @if(auth()->user()->rol == "dealer" || auth()->user()->rol == "admin")
                         <li><a class="navbar-brand headerLink admin" href="{{ route('inici') }}">Usuarios</a></li>
                         <li><a class="navbar-brand headerLink admin" href="{{ route('inici') }}">Proveedores</a></li>
+                        <li><a class="navbar-brand headerLink admin" href="{{ route('order.index') }}">Comandas</a></li>
                     @endif
                 @endif
                 <li>
