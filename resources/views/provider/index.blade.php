@@ -2,6 +2,14 @@
 @section('titulo', 'batoilogic - Proveedores')
 @section('contenido')
 
+    @if(auth()->check())
+        @if(auth()->user()->rol != "admin")
+            <script>window.location = "/";</script>
+        @endif
+    @else
+        <script>window.location = "/";</script>
+    @endif
+
     <div class="container">
         <h1>Todos los usuarios</h1>
         <div class="table-responsive">
