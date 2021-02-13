@@ -20,7 +20,6 @@
                     <th>Cantidad</th>
                     <th>Precio</th>
                     <th>Descuento</th>
-                    <th>Opciones</th>
                 </tr>
                 @foreach($orders as $order)
                     <tr>
@@ -29,10 +28,13 @@
                         <td>{{$order->quantity}}</td>
                         <td>{{$order->price}}€</td>
                         <td>{{$order->discount}}%</td>
-                        <td><a href="{{route('order.show',$order->id)}}">Ver los datos de la comanda</a></td>
                     </tr>
+                    <div class="d-none">
+                        {{$total=$total+$order->price}}
+                    </div>
                 @endforeach
             </table>
+            <h4>Total: {{$total}}€</h4>
         </div>
     </div>
 
