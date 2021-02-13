@@ -147,7 +147,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Requests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,6 +159,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\classe\laravel\code\BatoiLOGIC\app\Http\Requests" />
+      <recent name="F:\classe\laravel\code\BatoiLOGIC\resources\views\provider" />
       <recent name="F:\classe\laravel\code\BatoiLOGIC\public\js" />
       <recent name="F:\classe\laravel\code\BatoiLOGIC\resources\views\partials" />
     </key>
@@ -278,5 +280,11 @@
     <MESSAGE value="Actualizar rama" />
     <MESSAGE value="Controller Orders, y vistas index y edit" />
     <option name="LAST_COMMIT_MESSAGE" value="Controller Orders, y vistas index y edit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613234911690">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1613234911690" />
   </component>
 </project>

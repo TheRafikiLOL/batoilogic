@@ -1,5 +1,5 @@
 @extends('plantilla')
-@section('titulo', 'batoilogic - Usuarios')
+@section('titulo', 'batoilogic - Proveedores')
 @section('contenido')
 
     @if(auth()->check())
@@ -17,24 +17,18 @@
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
-                    <th>Apellidos</th>
-                    <th>Correo electrónico</th>
-                    <th>Dirección</th>
                     <th>Opciones</th>
                 </tr>
-                @foreach($users as $user)
+                @foreach($providers as $provider)
                     <tr>
-                        <td>{{$user->id}}</td>
-                        <td>{{$user->name}}</td>
-                        <td>{{$user->surname}}</td>
-                        <td>{{$user->email}}</td>
-                        <td>{{$user->address}}</td>
-                        <td><a href="{{route('usuarios.show',$user->id)}}">Ver usuario</a></td>
+                        <td>{{$provider->id}}</td>
+                        <td>{{$provider->name}}</td>
+                        <td><a href="{{route('proveedores.show',$provider->id)}}">Ver proveedor</a></td>
                     </tr>
                 @endforeach
             </table>
         </div>
-        {{  $users->links() }}
+        {{  $providers->links() }}
     </div>
 
 @endsection

@@ -19,6 +19,7 @@ use App\Http\Controllers\OrderLinesController;
 
 Route::resource('productos', 'App\Http\Controllers\ProductController');
 Route::resource('usuarios', 'App\Http\Controllers\UserController');
+Route::resource('proveedores', 'App\Http\Controllers\ProviderController');
 Route::resource('order', 'App\Http\Controllers\OrderController');
 Route::resource('orderlines', 'App\Http\Controllers\OrderLinesController');
 

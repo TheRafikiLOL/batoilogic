@@ -62,16 +62,5 @@ class UserController extends Controller
             $error = 'Las contraseñas no coinciden';
             return view('user.edit', compact('error', 'user'));
         }
-
-        /*if ($request->get('password1')===$request->get('password2'))
-        {
-            // Autenticación exitosa
-            $user->save();
-            auth()->login($user);
-            return redirect()->intended(route('productos.index'));
-        } else {
-            $error = 'Las contraseñas no coinciden';
-            return view('auth.register', compact('error'));
-        }*/
     }
 }
