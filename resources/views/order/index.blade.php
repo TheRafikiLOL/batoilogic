@@ -29,7 +29,15 @@
                         <td>{{$order->address}}</td>
                         <td>{{$order->state}}</td>
                         <td>{{$order->created_at}}</td>
-                        <td><a href="{{route('order.show',$order->id)}}">Ver los datos de la comanda</a></td>
+                        <td>
+                            <a href="{{route('order.show',$order->id)}}">Ver los datos de la comanda</a>
+                            <br>
+                            <form action="{{route('order.destroy',$order->id)}}" method="post">
+                                @csrf
+                                @method('delete')
+                                <button type="submit">Eliminar la comanda</button>
+                            </form>
+                        </td>
                     </tr>
                     @endforeach
                 </table>

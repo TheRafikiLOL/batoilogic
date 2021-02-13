@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\OrderLines;
 use Illuminate\Http\Request;
 use App\Models\Orders;
 
@@ -83,6 +84,8 @@ class OrderController extends Controller
      */
     public function destroy($id)
     {
-        //
+        OrderLines::where('orderId', $id)->delete();
+        Orders::findOrFail($id)->delete();
+        return redirect()->route('order.index');
     }
 }

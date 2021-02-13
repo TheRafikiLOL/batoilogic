@@ -43,10 +43,9 @@ class OrderLinesController extends Controller
      */
     public function show($id)
     {
+        $total=0;
         $orders = OrderLines::where('orderId','=' ,$id)->get();
-        return view('orderlines.index', compact('orders'));
-        /*$order = OrderLines::findOrFail($id);
-        return view('order.show', compact('order'));*/
+        return view('orderlines.index', compact('orders','total'));
     }
 
     /**
