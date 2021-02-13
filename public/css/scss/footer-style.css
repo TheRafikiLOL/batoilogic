@@ -1,0 +1,94 @@
+footer {
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .row {
+  background: #232F3E;
+}
+
+footer .row h2 {
+  font-size: 1.2em;
+  color: #E5690E;
+  text-decoration: underline;
+  text-align: left;
+}
+
+footer .row ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .row ul li a {
+  color: white;
+}
+
+footer .row ul li a:hover {
+  color: #E5690E;
+}
+
+footer .row ul li::before {
+  content: '';
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  position: absolute;
+  left: 2em;
+  background-repeat: none !important;
+}
+
+footer .row ul li#phone, footer .row ul li#mail {
+  margin-left: 30px;
+}
+
+footer .row ul li#phone::before {
+  background: url("https://img.icons8.com/android/24/ffffff/phone.png");
+  margin-left: -14px;
+}
+
+footer .row ul li#mail::before {
+  background: url("https://img.icons8.com/material-rounded/24/ffffff/important-mail.png");
+  margin-left: -14px;
+}
+
+footer img {
+  padding: 0 0 20px 0;
+  width: 238px;
+}
+
+footer .contenido {
+  padding: 20px 80px 10px 80px;
+  margin: 0 !important;
+  text-align: justify;
+}
+
+footer div.row.derechos {
+  border-top: solid #E5690E 1px;
+  margin: 0 !important;
+}
+
+footer div.row.derechos small {
+  margin: 10px 40px;
+}
+
+footer div.row.derechos small a {
+  color: #E5690E;
+}
+
+footer div.row.derechos small a:hover {
+  color: #E03B07;
+}
+
+footer .social-media-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .social-media-icons img {
+  width: 25px;
+  margin-right: 9px;
+}
+/*# sourceMappingURL=footer-style.css.map */

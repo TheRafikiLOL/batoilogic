@@ -5,11 +5,9 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #F5F5F5;
 }
-
 body div#fullGeneralContent {
   min-height: 537px;
 }
-/*# sourceMappingURL=general-style.css.map */

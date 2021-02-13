@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional" />
+    <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +180,7 @@
       <workItem from="1612879272139" duration="11613000" />
       <workItem from="1612959674469" duration="719000" />
       <workItem from="1612961086092" duration="10082000" />
-      <workItem from="1613138283790" duration="6952000" />
+      <workItem from="1613138283790" duration="6421000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -227,14 +231,7 @@
       <option name="project" value="LOCAL" />
       <updated>1613053108486</updated>
     </task>
-    <task id="LOCAL-00008" summary="Register funcional">
-      <created>1613146127658</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1613146127658</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +257,6 @@
     <MESSAGE value="Commit para pull de ramarafa" />
     <MESSAGE value="Vista de login, con las rutas y su controlador" />
     <MESSAGE value="rama actualizada" />
-    <MESSAGE value="Register funcional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Register funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="rama actualizada" />
   </component>
 </project>

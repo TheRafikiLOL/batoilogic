@@ -1,0 +1,92 @@
+//Variables
+$principalColor: #E5690E;
+$principalColorHover: #E03B07;
+
+footer {
+    color: white;
+    justify-content: center;
+
+    .row {
+        background: #232F3E;
+    
+        h2{
+            font-size: 1.2em;
+            color: $principalColor;
+            text-decoration: underline;
+            text-align: left;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                a {
+                    color: white;
+                }
+                a:hover {
+                    color: $principalColor;
+                }
+            }
+
+            li::before {
+                content: '';
+                width: 26px;
+                height: 26px;
+                display: inline-block;
+                position: absolute;
+                left: 2em;
+                background-repeat: none!important;
+            }
+
+            li#phone, li#mail {
+                margin-left: 30px;
+            }
+
+            li#phone::before {
+                background: url('https://img.icons8.com/android/24/ffffff/phone.png');
+                margin-left: -14px;
+            }
+
+            li#mail::before {
+                background: url('https://img.icons8.com/material-rounded/24/ffffff/important-mail.png');
+                margin-left: -14px;
+            }
+        }
+    }    
+
+    img {
+        padding: 0 0 20px 0;
+        width: 238px;
+    }
+
+    .contenido {
+        padding: 20px 80px 10px 80px;
+        margin: 0!important;
+        text-align: justify;
+    }
+
+    div.row.derechos {
+        border-top: solid $principalColor 1px;
+        margin: 0!important;
+
+        small {
+            margin: 10px 40px;
+
+            a {
+                color: $principalColor;
+            }
+            a:hover {
+                color: $principalColorHover;
+            }
+        }
+    }
+
+    .social-media-icons {
+        display: flex;
+
+        img {
+            width: 25px;
+            margin-right: 9px;
+        }
+    }
+}

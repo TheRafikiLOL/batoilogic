@@ -28,7 +28,7 @@
                 <a id="loginButton" class="btn d-none d-lg-block" href="{{route('login')}}">Inicia sesión</a>
             @endif
             @if(auth()->check())
-                <img id="userIcon" class="d-none d-lg-block" src="img/users/placeholder/{{ auth()->user()->photo }}" alt="Icono de usuario">
+                <a href="{{route('usuarios.show',auth()->user()->id)}}" id="userIcon"><img class="d-none d-lg-block" src="/img/users/placeholder/{{ auth()->user()->photo }}" alt="Icono de usuario"></a>
                 <a id="loginButton" class="btn d-none d-lg-block" href="{{route('logout')}}">Cerrar sesión</a>
             @endif
 

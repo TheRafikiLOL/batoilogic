@@ -16,6 +16,7 @@ use App\Http\Controllers\RegisterController;
 */
 
 Route::resource('productos', 'App\Http\Controllers\ProductController');
+Route::resource('usuarios', 'App\Http\Controllers\UserController');
 
 Route::get('login', [LoginController::class, 'loginForm'])->name('login');
 Route::post('login', [LoginController::class, 'login'])->name('log');

@@ -7,14 +7,6 @@
  large -> 992px
 
 */
-/*@media screen and (max-width: 991px) {
-
-    nav{ 
-        ul {
-            background: red;
-        }   
-    }
-}*/
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -182,11 +174,14 @@ header nav div a:not(:last-child) {
   margin-right: 20px !important;
 }
 
-header nav div img#userIcon {
+header nav div a#userIcon {
+  margin: 0 10px 0 auto;
+}
+
+header nav div a#userIcon img {
   width: 60px;
   height: 60px;
   border-radius: 100px;
-  margin: 0 10px 0 auto;
 }
 
 @media screen and (max-width: 991px) {
