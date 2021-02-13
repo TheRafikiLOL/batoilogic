@@ -26,8 +26,8 @@ class OrdersFactory extends Factory
         $customer=Customers::inRandomOrder()->first();
         $dealer=Dealers::inRandomOrder()->first();
         return [
-            'customerId' => $customer->userId,
-            'dealerId' => $dealer->userId,
+            'customerId' => $customer->id,
+            'dealerId' => $dealer->id,
             'state' => $this->faker->boolean,
             'address' => $this->faker->address,
         ];

@@ -75,24 +75,16 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        $customer = Customers::where('userId', '=', $id);
-        //$orders = Orders::where('customerId', '=', $customer->id);
+        $customer = Customers::where('userId','=' , $id)->get();
+        $orders = Orders::where('customerId', '=', $customer[0]->id)->get();
 
-        dd($id);
-
-        /*$orderLines = OrderLines::where('orderId', '=', $orders->id);
-        if (auth()->user()->rol != "admin") {
-            OrderLines::where('orderId', $id)->delete();
-            Orders::findOrFail($id)->delete();
-            Customers::where('orderId', $id)->delete();
-            User::findOrFail($id)->delete();
-            $users = User::paginate(15);
-            return view('user.index', compact('users'));
+        foreach ($orders as $order) {
+            OrderLines::where('orderId', '=', $order->id)->delete();
+            Orders::findOrFail($order->id)->delete();
         }
-        else {
-            User::findOrFail($id)->delete();
-            $users = User::paginate(15);
-            return view('user.index', compact('users'));
-        }*/
+        Customers::where('userId', '=', $id)->delete();
+        User::findOrFail($id)->delete();
+        $users = User::paginate(15);
+        return view('user.index', compact('users'));
     }
 }
