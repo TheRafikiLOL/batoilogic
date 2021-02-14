@@ -186,7 +186,7 @@
       <workItem from="1612959674469" duration="719000" />
       <workItem from="1612961086092" duration="10082000" />
       <workItem from="1613138283790" duration="6421000" />
-      <workItem from="1613305714093" duration="5458000" />
+      <workItem from="1613305714093" duration="12574000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -297,9 +297,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Actualizar rama" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613245795791">
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613318977658">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1613245795791" />
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1613318977658" />
   </component>
 </project>

@@ -24,6 +24,16 @@
         </div>
     </div>
 
+    <a href="{{route('productos.edit',$product->id)}}">Editar producto</a><br>
+
+    <form action="{{route('productos.destroy',$product->id)}}" method='POST'>
+        @csrf
+        @method('DELETE')
+        <div>
+            <button type="submit" class="btn btn-danger" style="padding:8px 50px;margin-top:25px;">Eliminar producto</button>
+        </div>
+    </form>
+
     <script src={{ asset('js/modal-img.js')  }}></script>
 
 @endsection
