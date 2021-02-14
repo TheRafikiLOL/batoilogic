@@ -29,7 +29,7 @@ class OrderLinesFactory extends Factory
             'orderId' => $order->id,
             'productId' => $product->id,
             'quantity' => $this->faker->randomDigit,
-            'price' => $this->faker->randomDigit,
+            'price' => $product->price,
             'discount' => $this->faker->randomDigit,
         ];
     }

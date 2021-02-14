@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional" />
+    <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
+      <change afterPath="$PROJECT_DIR$/resources/views/order/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/orderlines/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/orderlines/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/OrderLinesFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/OrderLinesFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/order/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/order/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/orderlines/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/orderlines/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,6 +190,7 @@
       <workItem from="1612959674469" duration="719000" />
       <workItem from="1612961086092" duration="10082000" />
       <workItem from="1613138283790" duration="6421000" />
+      <workItem from="1613292960221" duration="21927000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -264,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613241376893</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Actualizar Rama">
+      <created>1613292979767</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613292979767</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,12 +313,7 @@
     <MESSAGE value="Controller OrderLines, y se ven las lineas de los productos" />
     <MESSAGE value="Actualizar rama" />
     <MESSAGE value="Eliminar comanda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eliminar comanda" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613245795791">
-      <screen x="1920" y="0" width="1680" height="1010" />
-    </state>
-    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1613245795791" />
+    <MESSAGE value="Actualizar Rama" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizar Rama" />
   </component>
 </project>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Models\OrderLines;
 
@@ -9,9 +10,7 @@ class OrderLinesController extends Controller
 {
     public function index()
     {
-        $orders = OrderLines::whereIn('orderId', $id)->get();
-        dd($id);
-        return view('orderlines.index', compact('orders'));
+        //
     }
 
     /**
@@ -19,9 +18,9 @@ class OrderLinesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create($id)
     {
-        //
+        return view('orderlines.create',compact('id'));
     }
 
     /**
@@ -30,9 +29,18 @@ class OrderLinesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request,$id)
     {
-        //
+        $order = new OrderLines();
+        $order->orderId = $id;
+        $order->productId = $request->get('prod');
+        $product=Product::findOrFail($request->get('prod'));
+        $order->quantity = $request->get('quantity');
+        $order->price = $product->price;
+        $order->discount =  $request->get('discount');
+
+        $order->save();
+        return redirect()->route('order.index');
     }
 
     /**
@@ -57,7 +65,7 @@ class OrderLinesController extends Controller
     public function edit($id)
     {
         $order = OrderLines::findOrFail($id);
-        return view('order.edit', compact('order'));
+        return view('orderlines.edit', compact('order'));
     }
 
     /**
@@ -70,11 +78,11 @@ class OrderLinesController extends Controller
     public function update(Request $request, $id)
     {
         $order = OrderLines::findOrFail($id);
-        $order->dealerId = $request->dealer;
-        $order->state = $request->state;
-        $order->address =$request->address;
+        $order->productId = $request->producto;
+        $order->quantity = $request->cantidad;
+        $order->discount =$request->descuento;
         $order->save();
-        return redirect()->route('order.index');
+        return redirect()->route('orderlines.show', $order->orderId);
     }
 
     /**
@@ -85,6 +93,8 @@ class OrderLinesController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $order=OrderLines::findOrFail($id);
+        $order->delete();
+        return redirect()->route('orderlines.show',$order->orderId);
     }
 }

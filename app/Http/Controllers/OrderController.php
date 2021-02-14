@@ -21,7 +21,7 @@ class OrderController extends Controller
      */
     public function create()
     {
-        //
+        return view('order.create');
     }
 
     /**
@@ -32,7 +32,14 @@ class OrderController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $order = new Orders();
+        $order->customerId = $request->get('customer');
+        $order->dealerId = $request->get('dealer');
+        $order->state =  $request->get('state');
+        $order->address =  $request->get('address');
+
+        $order->save();
+        return redirect()->route('order.index');
     }
 
     /**

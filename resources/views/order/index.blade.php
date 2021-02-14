@@ -12,6 +12,7 @@
 
     <div class="container">
         <h1>Todas las comandas</h1>
+        <a href="{{route('order.create')}}">Nueva Comanda</a>
             <div class="table-responsive">
                 <table class="table">
                     <tr>
