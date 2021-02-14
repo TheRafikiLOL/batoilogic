@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/order/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/order/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/orderlines/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/orderlines/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +186,6 @@
       <workItem from="1612959674469" duration="719000" />
       <workItem from="1612961086092" duration="10082000" />
       <workItem from="1613138283790" duration="6421000" />
-      <workItem from="1613292960221" duration="23347000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -260,28 +264,7 @@
       <option name="project" value="LOCAL" />
       <updated>1613238042815</updated>
     </task>
-    <task id="LOCAL-00012" summary="Eliminar comanda">
-      <created>1613241376893</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1613241376893</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Actualizar Rama">
-      <created>1613292979767</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1613292979767</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Crear nueva comanda y añadir lineas a comandas, con error al añadir nuevas lineas a una nueva comanda">
-      <created>1613319182236</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1613319182236</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,9 +293,12 @@
     <MESSAGE value="Controller Orders, y vistas index y edit" />
     <MESSAGE value="Controller OrderLines, y se ven las lineas de los productos" />
     <MESSAGE value="Actualizar rama" />
-    <MESSAGE value="Eliminar comanda" />
-    <MESSAGE value="Actualizar Rama" />
-    <MESSAGE value="Crear nueva comanda y añadir lineas a comandas, con error al añadir nuevas lineas a una nueva comanda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crear nueva comanda y añadir lineas a comandas, con error al añadir nuevas lineas a una nueva comanda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizar rama" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613245795791">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2490" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1613245795791" />
   </component>
 </project>

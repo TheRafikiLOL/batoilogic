@@ -2,18 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ProductRequest;
+use App\Models\OrderLines;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function __construct()
-    {
-        $user=auth()->user();
-        $this->middleware('auth',['only' => ['create', 'store', 'edit', 'update', 'destroy']]);
-        $this->middleware(['auth', 'roles:admin,user'],['only' => ['edit', 'update', 'destroy']]);
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -21,20 +16,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //return view('product.index');
-        //$products = Product::get();
         $products = Product::paginate(24);
         return view('product.index', compact('products'));
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
     }
 
     /**
@@ -45,7 +28,27 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $product = new Product();
+        $product->name = $request->get('name');
+        $product->description = $request->get('description');
+        $product->price = $request->get('price');
+        $product->providerId = $request->get('providerId');
+        $product->stock = $request->get('stock');
+        $product->active = $request->get('active');
+        $product->photo = "placeholder.png";
+
+        $product->save();
+        return redirect('/productos');
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        return view('product.create');
     }
 
     /**
@@ -68,7 +71,8 @@ class ProductController extends Controller
      */
     public function edit($id)
     {
-        //
+        $product = Product::findOrFail($id);
+        return view('product.edit', compact('id', 'product'));
     }
 
     /**
@@ -80,7 +84,14 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $product = Product::findOrFail($id);
+        $product->name = $request->name;
+        $product->description = $request->description;
+        $product->price = $request->price;
+        $product->providerId = $request->providerId;
+        $product->active = $request->active;
+        $product->save();
+        return view('product.show', compact('product'));
     }
 
     /**
@@ -91,6 +102,9 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        //
+        OrderLines::where('productId', '=', $id)->delete();
+        Product::findOrFail($id)->delete();
+
+        return redirect('/productos');
     }
 }

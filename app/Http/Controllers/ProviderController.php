@@ -34,7 +34,7 @@ class ProviderController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(ProviderRequest $request)
+    public function store($request)
     {
         $provider = new Provider();
         $provider->name = $request->get('name');

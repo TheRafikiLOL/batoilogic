@@ -5,6 +5,12 @@
     <div class="listadoProductos">
         <h1>Todos los productos</h1>
 
+        @if(auth()->check())
+            @if(auth()->user()->rol == "admin")
+                <a href="{{route('productos.create')}}">Añadir producto</a>
+            @endif
+        @endif
+
         <div>
 
             @foreach($products as $product)

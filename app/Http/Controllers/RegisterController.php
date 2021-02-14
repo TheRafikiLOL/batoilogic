@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Customers;
 use Illuminate\Http\Request;
 use App\Models\User;
 
@@ -26,8 +27,13 @@ class RegisterController extends Controller
         if ($request->get('password')===$request->get('password2'))
         {
             // Autenticación exitosa
+            $customer = new Customers();
+
             $user->save();
             auth()->login($user);
+
+            $customer->userId = auth()->user()->id;
+            $customer->save();
             return redirect()->intended(route('productos.index'));
         } else {
             $error = 'Las contraseñas no coinciden';
