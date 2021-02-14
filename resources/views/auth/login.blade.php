@@ -1,6 +1,11 @@
 @extends('plantilla')
 @section('titulo', 'batoilogic - Inicia sesión')
 @section('contenido')
+
+    @if(auth()->check())
+        <script>window.location = "/";</script>
+    @endif
+
     <div class="formContainer">
         <div class="login_registerForm">
             <h1>Inicia Sesión</h1>

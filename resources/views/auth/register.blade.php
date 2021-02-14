@@ -1,6 +1,11 @@
 @extends('plantilla')
 @section('titulo', 'batoilogic - Regístrate')
 @section('contenido')
+
+    @if(auth()->check())
+        <script>window.location = "/";</script>
+    @endif
+
     <div class="formContainer">
         <div class="login_registerForm">
             <h1>Regístrate</h1>
