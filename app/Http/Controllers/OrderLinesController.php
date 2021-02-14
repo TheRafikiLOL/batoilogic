@@ -40,7 +40,7 @@ class OrderLinesController extends Controller
         $order->discount =  $request->get('discount');
 
         $order->save();
-        return redirect()->route('order.index');
+        return redirect()->route('orderlines.show',$id);
     }
 
     /**
@@ -53,7 +53,7 @@ class OrderLinesController extends Controller
     {
         $total=0;
         $orders = OrderLines::where('orderId','=' ,$id)->get();
-        return view('orderlines.index', compact('orders','total'));
+        return view('orderlines.index', compact('orders','total', 'id'));
     }
 
     /**

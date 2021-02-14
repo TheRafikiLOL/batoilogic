@@ -12,7 +12,7 @@
 
     <div class="container">
         <h1>Productos de la comanda</h1>
-        <a href="{{route('created',[$orders[0]->orderId])}}">Nueva linea de comanda</a>
+        <a href="{{route('created',$id)}}">Nueva linea de comanda</a>
         <div class="table-responsive">
             <table class="table">
                 <tr>
