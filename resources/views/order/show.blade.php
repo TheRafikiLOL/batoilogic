@@ -17,7 +17,7 @@
             <a href="{{route('order.edit',$order->id)}}">Editar los datos de la comanda</a>
         </div>
         <div>
-            <a href="{{route('orderlines.show',$order->id)}}">Ver los productos de de la comanda</a>
+            <a href="{{route('orderlinesIndex',$order->id)}}">Ver los productos de de la comanda</a>
         </div>
     </div>
 

@@ -3,7 +3,7 @@
 @section('contenido')
     <div class="container">
         <h1>Nueva comanda</h1>
-        <form action="{{route('stored',$id)}}" method='POST'>
+        <form action="{{route('orderlinesStore',$id)}}" method='POST'>
             @csrf
             <div class="form-group">
                 <label for="prod">Id del producto</label>

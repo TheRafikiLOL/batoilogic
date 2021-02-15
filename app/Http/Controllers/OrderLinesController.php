@@ -8,9 +8,11 @@ use App\Models\OrderLines;
 
 class OrderLinesController extends Controller
 {
-    public function index()
+    public function index($id)
     {
-        //
+        $total=0;
+        $orders = OrderLines::where('orderId','=' ,$id)->get();
+        return view('orderlines.index', compact('orders','total', 'id'));
     }
 
     /**
@@ -40,7 +42,7 @@ class OrderLinesController extends Controller
         $order->discount =  $request->get('discount');
 
         $order->save();
-        return redirect()->route('orderlines.show',$id);
+        return redirect()->route('orderlinesIndex',$id);
     }
 
     /**
@@ -51,9 +53,7 @@ class OrderLinesController extends Controller
      */
     public function show($id)
     {
-        $total=0;
-        $orders = OrderLines::where('orderId','=' ,$id)->get();
-        return view('orderlines.index', compact('orders','total', 'id'));
+        //
     }
 
     /**
@@ -82,7 +82,7 @@ class OrderLinesController extends Controller
         $order->quantity = $request->cantidad;
         $order->discount =$request->descuento;
         $order->save();
-        return redirect()->route('orderlines.show', $order->orderId);
+        return redirect()->route('orderlinesIndex', $order->orderId);
     }
 
     /**
@@ -95,6 +95,6 @@ class OrderLinesController extends Controller
     {
         $order=OrderLines::findOrFail($id);
         $order->delete();
-        return redirect()->route('orderlines.show',$order->orderId);
+        return redirect()->route('orderlinesIndex',$order->orderId);
     }
 }

@@ -23,8 +23,9 @@ Route::resource('proveedores', 'App\Http\Controllers\ProviderController');
 Route::resource('order', 'App\Http\Controllers\OrderController');
 Route::resource('orderlines', 'App\Http\Controllers\OrderLinesController');
 
-Route::get('orderlines/create/{id}', [OrderLinesController::class, 'create'])->name('created');
-Route::post('orderlines/{id}', [OrderLinesController::class, 'store'])->name('stored');
+Route::get('orderlines/index/{id}', [OrderLinesController::class, 'index'])->name('orderlinesIndex');
+Route::get('orderlines/create/{id}', [OrderLinesController::class, 'create'])->name('orderlinesCreate');
+Route::post('orderlines/{id}', [OrderLinesController::class, 'store'])->name('orderlinesStore');
 
 Route::get('login', [LoginController::class, 'loginForm'])->name('login');
 Route::post('login', [LoginController::class, 'login'])->name('log');
