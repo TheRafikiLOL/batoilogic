@@ -3,10 +3,10 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Models\Product;
+use App\Models\OrderLines;
 use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class OrderLinesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +15,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product::get();
-        return $products;
+        $orderlines = OrderLines::get();
+        return $orderlines;
     }
 
     /**
@@ -27,29 +27,28 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-
+        //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Product  $product
+     * @param  \App\Models\OrderLines  $orderLines
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $product)
+    public function show(OrderLines $orderLines)
     {
-        //$product = Product::findOrFail($id);
-        return $product;
+        return $orderLines;
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Product  $product
+     * @param  \App\Models\OrderLines  $orderLines
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Product $product)
+    public function update(Request $request, OrderLines $orderLines)
     {
         //
     }
@@ -57,10 +56,10 @@ class ProductController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Product  $product
+     * @param  \App\Models\OrderLines  $orderLines
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Product $product)
+    public function destroy(OrderLines $orderLines)
     {
         //
     }
