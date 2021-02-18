@@ -17,7 +17,7 @@ class DealersSeeder extends Seeder
     {
         $users=User::get();
         foreach ($users as $user){
-            if($user->rol==1){
+            if($user->rol=='dealer'){
                 $customer = new Dealers();
                 $customer->userId = $user->id;
                 $customer->save();
