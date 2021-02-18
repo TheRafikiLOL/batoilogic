@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/OrdersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/OrdersFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_08_094423_crear_tabla_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_094423_crear_tabla_orders.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,6 +194,8 @@
       <workItem from="1613559077098" duration="683000" />
       <workItem from="1613582225420" duration="949000" />
       <workItem from="1613640982401" duration="1510000" />
+      <workItem from="1613643440329" duration="704000" />
+      <workItem from="1613644899724" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>

@@ -28,7 +28,7 @@ class OrdersFactory extends Factory
         return [
             'customerId' => $customer->id,
             'dealerId' => $dealer->id,
-            'state' => $this->faker->boolean,
+            'state' => rand(0,4),
             'address' => $this->faker->address,
         ];
     }
