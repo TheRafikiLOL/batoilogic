@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/order/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/order/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/orderlines/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/orderlines/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/orderlines/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/orderlines/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inici.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inici.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,8 +184,15 @@
       <workItem from="1612961086092" duration="10082000" />
       <workItem from="1613138283790" duration="6421000" />
       <workItem from="1613377824709" duration="3610000" />
+<<<<<<< HEAD
       <workItem from="1613382716127" duration="610000" />
       <workItem from="1613398681381" duration="2223000" />
+=======
+      <workItem from="1613382716127" duration="1287000" />
+      <workItem from="1613463535541" duration="10231000" />
+      <workItem from="1613486325879" duration="4260000" />
+      <workItem from="1613497752233" duration="4906000" />
+>>>>>>> cc27b0dba72a9cbd4496bf4619b5cbe768108622
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -274,7 +278,28 @@
       <option name="project" value="LOCAL" />
       <updated>1613321706989</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Actualización de archivos">
+      <created>1613385923851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613385923851</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Error al añadir provider solucionado">
+      <created>1613463836072</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613463836072</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Api ProductController">
+      <created>1613475469462</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613475469462</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +328,9 @@
     <MESSAGE value="Controller Orders, y vistas index y edit" />
     <MESSAGE value="Controller OrderLines, y se ven las lineas de los productos" />
     <MESSAGE value="Actualizar rama" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizar rama" />
+    <MESSAGE value="Actualización de archivos" />
+    <MESSAGE value="Error al añadir provider solucionado" />
+    <MESSAGE value="Api ProductController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Api ProductController" />
   </component>
 </project>
