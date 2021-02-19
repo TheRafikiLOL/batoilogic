@@ -43,6 +43,8 @@ Route::get('/', function () {
     return view('inici');
 })->name('inici');
 
+Route::get('/order/{id}/pdf', 'App\Http\Controllers\OrderController@pdf')->name('pdf');
+
 /*Route::get('/tienda/productos', function () {
 	return view('product.llistat');
 })->name('product_llistat');

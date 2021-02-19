@@ -8,6 +8,7 @@ use App\Http\Controllers\Api\DealerController;
 use App\Http\Controllers\Api\OrderController;
 use App\Http\Controllers\Api\OrderLinesController;
 use App\Http\Controllers\Api\UserController;
+use App\Http\Controllers\Api\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,8 @@ Route::apiResource('dealers','App\Http\Controllers\Api\DealerController');
 Route::apiResource('orders','App\Http\Controllers\Api\OrderController');
 Route::apiResource('orderlines','App\Http\Controllers\Api\OrderLinesController');
 Route::apiResource('users','App\Http\Controllers\Api\UserController');
+Route::apiResource('login','App\Http\Controllers\Api\LoginController');
+Route::get('login/{credentials}', [LoginController::class, 'login']);
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\OrderLines;
 use Illuminate\Http\Request;
 use App\Models\Orders;
+use Barryvdh\DomPDF\PDF;
 
 class OrderController extends Controller
 {
@@ -52,6 +53,14 @@ class OrderController extends Controller
     {
         $order = Orders::findOrFail($id);
         return view('order.show', compact('order'));
+    }
+
+    public function pdf($id)
+    {
+        $order = Orders::findOrFail($id);
+        $pdf = PDF::loadView('order.pdf',compact('order'));
+        return $pdf->download($order->id . '.pdf');
+        //return view('order.pdf', compact('order'));
     }
 
     /**

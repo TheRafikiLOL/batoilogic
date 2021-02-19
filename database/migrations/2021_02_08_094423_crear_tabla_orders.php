@@ -17,7 +17,7 @@ class CrearTablaOrders extends Migration
             $table->id();
             $table->bigInteger('customerId');
             $table->bigInteger('dealerId');
-            $table->string('state');
+            $table->integer('state');
             $table->string('address');
             $table->timestamps();
         });

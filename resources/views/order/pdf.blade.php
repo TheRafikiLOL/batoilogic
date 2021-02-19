@@ -11,7 +11,6 @@
     @endif
 
     <div class="container">
-        <a href="{{ route('pdf',$order->id) }}" class="btn btn-info" rel="stylesheet"><i class="fa fa-pdf-o"></i> Imprimir comanda</a>
         <h1>Id de la comanda: {{$order->id}}</h1>
         <h2>Id del usuario: {{$order->customerId}}</h2>
         <h2>Id del repartidor: {{$order->dealerId}}</h2>

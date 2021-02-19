@@ -79,7 +79,7 @@ class UserController extends Controller
         $user = User::findOrFail($id);
 
 
-        if($user->rol == "1") {
+        if($user->rol == "customer") {
             $dealers = Dealers::all();
             $dealer = Dealers::where('userId','=' , $id)->get();
 

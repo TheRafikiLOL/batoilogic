@@ -36,9 +36,10 @@ class OrderController extends Controller
      * @param  \App\Models\Orders  $orders
      * @return \Illuminate\Http\Response
      */
-    public function show(Orders $orders)
+    public function show(Orders $order)
     {
-        return $orders;
+        return $order;
+        //return response()->json(new OrderResource($order), 200);
     }
 
     /**

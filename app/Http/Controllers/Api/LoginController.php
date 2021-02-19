@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
@@ -14,9 +16,23 @@ class LoginController extends Controller
      */
     public function index()
     {
-        //
+        $users = User::where('rol','=' , "dealer")->get();
+        return $users;
     }
 
+    public function login(Request $request)
+    {
+        return "holo";
+        /*$credenciales = $request->only('email', 'password');
+        //dd($credenciales);
+        if (Auth::attempt($credenciales))
+        {
+            // Autenticación exitosa
+            return $credenciales;
+        } else {
+            return $credenciales;
+        }*/
+    }
     /**
      * Store a newly created resource in storage.
      *

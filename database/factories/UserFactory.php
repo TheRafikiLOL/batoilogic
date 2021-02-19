@@ -22,6 +22,7 @@ class UserFactory extends Factory
      */
     public function definition()
     {
+        $rol=['admin','customer','dealer'];
         return [
             'name' => $this->faker->name,
             'surname' => $this->faker->lastName,
@@ -29,7 +30,7 @@ class UserFactory extends Factory
             'email' => $this->faker->unique()->safeEmail,
             'password' => bcrypt(1234),
             'photo' => "placeholder.png",
-            'rol' => $this->faker->boolean,
+            'rol' => $rol[rand(0,2)],
         ];
     }
 }

@@ -1,6 +1,15 @@
 @extends('plantilla')
 @section('titulo', 'batoilogic - Nueva Comanda')
 @section('contenido')
+
+    @if(auth()->check())
+        @if(auth()->user()->rol != "admin")
+            <script>window.location = "/";</script>
+        @endif
+    @else
+        <script>window.location = "/";</script>
+    @endif
+
     <div class="container">
         <h1>Nueva comanda</h1>
         <form action="{{route('order.store')}}" method='POST'>
