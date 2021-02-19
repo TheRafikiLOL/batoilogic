@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/OrdersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/OrdersFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_08_094423_crear_tabla_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_094423_crear_tabla_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +195,12 @@
       <workItem from="1613582225420" duration="949000" />
       <workItem from="1613640982401" duration="1510000" />
       <workItem from="1613643440329" duration="704000" />
-      <workItem from="1613644899724" duration="641000" />
+      <workItem from="1613644899724" duration="1366000" />
+      <workItem from="1613648800586" duration="77000" />
+      <workItem from="1613652354426" duration="366000" />
+      <workItem from="1613657243629" duration="65000" />
+      <workItem from="1613671086877" duration="1215000" />
+      <workItem from="1613728639306" duration="8130000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -309,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613504237726</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="State de la orden actualizado">
+      <created>1613645640632</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1613645640632</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +354,7 @@
     <MESSAGE value="Error al añadir provider solucionado" />
     <MESSAGE value="Api ProductController" />
     <MESSAGE value="Controladores api Customer, Dealer, Order, OrderLine y User, con sus rutas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controladores api Customer, Dealer, Order, OrderLine y User, con sus rutas" />
+    <MESSAGE value="State de la orden actualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="State de la orden actualizado" />
   </component>
 </project>
