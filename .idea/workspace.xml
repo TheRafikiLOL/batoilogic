@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
+      <change beforePath="$PROJECT_DIR$/.idea/BatoiLOGIC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BatoiLOGIC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +134,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
     </include_path>
   </component>
   <component name="ProjectId" id="1nZBV4fe95yDDhpx9UyTNwKXmxJ" />
@@ -200,7 +207,10 @@
       <workItem from="1613652354426" duration="366000" />
       <workItem from="1613657243629" duration="65000" />
       <workItem from="1613671086877" duration="1215000" />
-      <workItem from="1613728639306" duration="8130000" />
+      <workItem from="1613728639306" duration="8443000" />
+      <workItem from="1613759576742" duration="7450000" />
+      <workItem from="1613820119984" duration="5176000" />
+      <workItem from="1613832442692" duration="4779000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -321,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613645640632</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="README.md modificado con instalación en local">
+      <created>1613740784723</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1613740784723</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +372,7 @@
     <MESSAGE value="Api ProductController" />
     <MESSAGE value="Controladores api Customer, Dealer, Order, OrderLine y User, con sus rutas" />
     <MESSAGE value="State de la orden actualizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="State de la orden actualizado" />
+    <MESSAGE value="README.md modificado con instalación en local" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md modificado con instalación en local" />
   </component>
 </project>
