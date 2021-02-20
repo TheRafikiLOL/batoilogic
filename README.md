@@ -42,7 +42,13 @@
 
 ***
 
+<<<<<<< HEAD
 ## Usuario para el despliegue
 
 <p>nombre: deploy-backoffice</p>
 <p>contraseña: 1234</p>
+=======
+## Usuario de prueba
+
+Será el administrador, para definir
+>>>>>>> 970cc6a89bc4ddc7197316a26df7956a905a3a22

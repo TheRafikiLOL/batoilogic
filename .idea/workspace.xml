@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/OrdersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/OrdersFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_08_094423_crear_tabla_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_094423_crear_tabla_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.php" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +131,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
     </include_path>
   </component>
   <component name="ProjectId" id="1nZBV4fe95yDDhpx9UyTNwKXmxJ" />
@@ -203,8 +207,21 @@
       <workItem from="1613582225420" duration="949000" />
       <workItem from="1613640982401" duration="1510000" />
       <workItem from="1613643440329" duration="704000" />
+<<<<<<< HEAD
       <workItem from="1613644899724" duration="641000" />
 >>>>>>> 6a1f84683733ed050082c4b1ba53375c79204cfb
+=======
+      <workItem from="1613644899724" duration="1366000" />
+      <workItem from="1613648800586" duration="77000" />
+      <workItem from="1613652354426" duration="366000" />
+      <workItem from="1613657243629" duration="65000" />
+      <workItem from="1613671086877" duration="1215000" />
+      <workItem from="1613728639306" duration="8443000" />
+      <workItem from="1613759576742" duration="7450000" />
+      <workItem from="1613820119984" duration="5176000" />
+      <workItem from="1613832442692" duration="4935000" />
+      <workItem from="1613839086923" duration="1364000" />
+>>>>>>> 970cc6a89bc4ddc7197316a26df7956a905a3a22
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -318,7 +335,28 @@
       <option name="project" value="LOCAL" />
       <updated>1613504237726</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="State de la orden actualizado">
+      <created>1613645640632</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1613645640632</updated>
+    </task>
+    <task id="LOCAL-00018" summary="README.md modificado con instalación en local">
+      <created>1613740784723</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1613740784723</updated>
+    </task>
+    <task id="LOCAL-00019" summary="deploy.php">
+      <created>1613838375860</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1613838375860</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +389,9 @@
     <MESSAGE value="Error al añadir provider solucionado" />
     <MESSAGE value="Api ProductController" />
     <MESSAGE value="Controladores api Customer, Dealer, Order, OrderLine y User, con sus rutas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controladores api Customer, Dealer, Order, OrderLine y User, con sus rutas" />
+    <MESSAGE value="State de la orden actualizado" />
+    <MESSAGE value="README.md modificado con instalación en local" />
+    <MESSAGE value="deploy.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy.php" />
   </component>
 </project>
