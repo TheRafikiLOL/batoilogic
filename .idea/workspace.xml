@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d44337e-e1c6-4f81-aa31-df831fdc6b08" name="Default Changelist" comment="Bootstrap funcional">
-      <change beforePath="$PROJECT_DIR$/.idea/BatoiLOGIC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BatoiLOGIC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.php" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +207,8 @@
       <workItem from="1613728639306" duration="8443000" />
       <workItem from="1613759576742" duration="7450000" />
       <workItem from="1613820119984" duration="5176000" />
-      <workItem from="1613832442692" duration="4779000" />
+      <workItem from="1613832442692" duration="4935000" />
+      <workItem from="1613839086923" duration="1364000" />
     </task>
     <task id="LOCAL-00001" summary="Bootstrap funcional">
       <created>1611658841346</created>
@@ -338,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613740784723</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="deploy.php">
+      <created>1613838375860</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1613838375860</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +378,7 @@
     <MESSAGE value="Controladores api Customer, Dealer, Order, OrderLine y User, con sus rutas" />
     <MESSAGE value="State de la orden actualizado" />
     <MESSAGE value="README.md modificado con instalación en local" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md modificado con instalación en local" />
+    <MESSAGE value="deploy.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy.php" />
   </component>
 </project>

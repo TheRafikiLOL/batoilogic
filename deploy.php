@@ -33,6 +33,7 @@ host('3.82.175.74')
 task('build', function () {
     run('cd {{release_path}} && build');
 });
+task('artisan:migrate', function () {});
 task('artisan:optimize', function () {});
 // [Optional] if deploy fails automatically unlock.
 after('deploy:failed', 'deploy:unlock');
